@@ -1,0 +1,21 @@
+export const colors = {
+  black: '#000000',
+  white: '#FFFFFF',
+  overlay: 'rgba(0, 0, 0, 0.5)',
+  overlayLight: 'rgba(0, 0, 0, 0.3)',
+  accent: '#FF6B9D',
+  accentBlue: '#4FC3F7',
+  accentGreen: '#81C784',
+  accentYellow: '#FFD54F',
+  accentPurple: '#CE93D8',
+  danger: '#FF5252',
+  success: '#69F0AE',
+  captureRing: '#FFFFFF',
+  captureInner: '#FFFFFF',
+  filterActive: '#FFFFFF',
+  filterInactive: 'rgba(255, 255, 255, 0.4)',
+  gradient: {
+    start: 'transparent',
+    end: 'rgba(0, 0, 0, 0.6)',
+  },
+} as const;

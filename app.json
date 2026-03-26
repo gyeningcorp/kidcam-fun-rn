@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "KidCam Fun",
+    "slug": "kidcam-fun",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#000000"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "KidCam Fun uses your camera for fun face filters! Everything stays on your device."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Save your fun photos! Only when a parent allows it."
+        }
+      ],
+      [
+        "expo-face-detector"
+      ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.gogig.kidcamfun",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.gogig.kidcamfun",
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#000000"
+      }
+    },
+    "newArchEnabled": true
+  }
+}
